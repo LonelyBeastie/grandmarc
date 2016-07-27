@@ -1,0 +1,290 @@
+.menu{
+	/*position: absolute;*/
+	top: 1px;
+	left: 0px;
+	width: 350px;
+	height: 100%;
+	z-index: 9999;
+	opacity: 0.80;
+  filter: alpha(opacity=85); /* For IE8 and earlier */
+}
+.menu-link, .menu-link:hover{
+	color: white;
+	text-decoration: none;
+}
+.inner-menu{
+	padding-top: 40px;
+	padding-left: 45px;
+}
+.inner-menu h2{
+	font-size: 20px;
+	padding-bottom: 5px;
+	font-weight: bold;
+}
+.close-me{
+	position: absolute;
+	top: -6px;
+	right: -1px;
+	height: 62px;
+	padding-right: 28px;
+}
+.menu-btn{
+	position: absolute;
+	top: 1px;
+	left: 0px;
+	width: 55px;
+}
+.font-opensans{
+	font-family: 'Open Sans', sans-serif;
+}
+.font-opensanscondensed{
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+.font-sanchez{
+	font-family: 'Sanchez', serif;
+}
+.img-logo{
+	padding-top: 11px;
+	width: 18%;
+	min-width: 275px;
+	padding-bottom: 15px;
+}
+/*.main-name{ font-family: MyriadPro-Regular; }*/
+.header-bar p{
+	padding-top: 15px;
+  padding-bottom: 15px;
+}
+.header-bar p.no-bottom-padding-or-margin{
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+.header-bar.dark-blue a:focus, a:hover {
+  color: #c66c3c;
+}
+.header-bar p a.current {
+  color: #c66c3c;
+}
+p.site.font-sanchez{
+	font-size: 18px;
+	padding-bottom: 15px;
+}
+p.site.font-opensanscondensed{
+	font-size: 33px;
+	padding-bottom: 15px;
+	margin-bottom: 0px;
+	padding-top: 15px;
+}
+/*pic as background*/
+.background-img{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.background-img-top{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+.background-img-left{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center left;
+}
+/*** Row stuff ***/
+/*picture*/
+.wood{background-image: url("../img/background.png");}
+
+.outside{background-image: url("../img/live_1.jpg");}
+.unit{background-image: url("../img/live_2.jpg");}
+.bathroom{background-image: url("../img/live_3.jpg");}
+.clubhouse{background-image: url("../img/live_4.jpg");}
+.pool{background-image: url("../img/live_5.jpg");}
+.band{background-image: url("../img/play_1.jpg");}
+.woman-pool{background-image: url("../img/relax_1.jpg");}
+.yoga{background-image: url("../img/fun-yoga.jpg");}
+.coffee{background-image: url("../img/fun-coffee.jpg");}
+.laugh{background-image: url("../img/fun-laugh.jpg");}
+
+.explore_1{background-image: url("../img/index/explore_1.png");}
+.explore_2{background-image: url("../img/index/explore_2.png");}
+.explore_3{background-image: url("../img/index/explore_3.png");}
+.indulge_1{background-image: url("../img/index/indulge_1.png");}
+.indulge_2{background-image: url("../img/index/indulge_2.png");}
+.indulge_3{background-image: url("../img/index/indulge_3.png");}
+.live_1{background-image: url("../img/index/live_1.png");}
+.live_2{background-image: url("../img/index/live_2.png");}
+.live_3{background-image: url("../img/index/live_3.png");}
+.live_4{background-image: url("../img/index/live_4.png");}
+.play_1{background-image: url("../img/index/play_1.png");}
+.play_3{background-image: url("../img/index/play_3.png");}
+.play_2{background-image: url("../img/index/play_2.png");}
+.play_4{background-image: url("../img/index/play_4.png");}
+.relax_1{background-image: url("../img/index/relax_1.png");}
+.relax_2{background-image: url("../img/index/relax_2.png");}
+.relax_3{background-image: url("../img/index/relax_3.png");}
+.relax_4{background-image: url("../img/index/relax_4.png");}
+
+.long_explore_2{background-image: url("../img/long_explore_2.png");}
+.long_gallery_2_full{background-image: url("../img/long_gallery_2_full.png");}
+.long_gallery_4_full{background-image: url("../img/long_gallery_4_full.png");}
+.long_play_2{background-image: url("../img/long_play_2.png");}
+
+.siteplan{background-image: url("../img/siteplan.png");}
+.floorplan{width: 100%;}
+.img-siteplan{ width: 100%; }
+
+/*end pictures*/
+/*row pad*/
+.row-pad{padding-top: 10px;}
+.row-pad-big{padding-top: 30px;}
+.row-pad-bottom{padding-bottom: 20px;}
+.no-left-padding{padding-left: 0px;}
+.no-padding-col{padding-left: 0px; padding-right: 0px;}
+/*height*/
+.background-img.big{ height: 275px;}
+.col-sm-5.big{height: inherit;}
+.big{ height: 415px; overflow: hidden;}
+.big-other{ height: 415px;}
+.half-big{ height: 75px; }
+.three-fourths-big{ height: 300px; }
+.double-big{ height: 830px; }
+
+/* colors box */
+.brown{ background-color: #825d3b;}
+.green{ background-color: #a0d9b3;}
+.orange{ background-color: #c66c3c;}
+.blue{ background-color: #6a86b8;}
+.dark-blue{ background-color: #3d5d77;}
+.white{ background-color: white;}
+/*text colors*/
+.brown-text{ color: #825d3b;}
+.green-text{ color: #a0d9b3;}
+.orange-text{ color: #c66c3c;}
+.blue-text{ color: #6a86b8;}
+.dark-blue-text{ color: #3d5d77;}
+.white-text{color: white;}
+
+.letter-spacing-100{ letter-spacing: 1px;}
+.letter-spacing-2{ letter-spacing: 2px;}
+.letter-spacing-50{ letter-spacing: 1.5px;}
+.line-spacing-22{ line-height: 22pt;}
+.base-font-size{font-size: 16px;}
+
+.box-o-text{
+  /*height: 350px;
+  width: 350px;*/
+  padding-top: 55px;
+  padding-left: 50px;
+	padding-right: 35px;
+	padding-bottom: 70px;
+}
+.for-amenities{padding: 10px 0 20px 0;}
+.box-o-text-other{
+  padding-top: 55px;
+  padding-left: 50px;
+	padding-right: 60px;
+}
+.box-o-text h2{ margin-bottom: 23px; }
+#map{
+  display: block;
+  width: 100%;
+  height: 830px;
+}
+div.blue-before-footer{
+	margin-top: 25px;
+}
+/*footer stuff*/
+footer{height: 80px;}
+footer p{ font-size: 14px;}
+footer p a{ color: #3d5d77;}
+footer .fa.fa-circle{ font-size: 7px;}
+a.no-dec, a.no-dec:hover {text-decoration: none;}
+.footer-pad{margin-top: 25px;}
+.equal-op{width: 65px; padding-left: 5px; }
+.col-sm-6.right-padding-col{margin-bottom: 10px;}
+
+/*Modal*/
+.modal-header { border-bottom: none;}
+.modal-footer {
+	border-top: none;
+	padding-bottom: 37px;
+}
+.upcase{
+	text-transform: uppercase;
+}
+#specialModal{
+	top: 50%;
+	/*left: 50%;*/
+	position: absolute;
+	margin-top: -125px;
+	/*margin-left: -300px;*/
+}
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 321px) {
+  .close-me{padding-right: 0px;}
+	.inner-menu{
+		padding-top: 40px;
+		padding-left: 50px;
+	}
+	/*.row.row-pad .col-sm-6.big-amenities{margin-top: 15px;}*/
+	/*.inner-menu h2{ font-size: 30px; }*/
+	/*.big-horizontal{ width: 300px; }*/
+	/*.img-siteplan{ width: 300px; }*/
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+	/*.close-me{padding-right: 0px;}*/
+	/*.big-horizontal{ width: 450px; }*/
+	/*.img-siteplan{ width: 450px; }*/
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	.background-img.big{ height: 415px;}
+	.col-sm-5.big{height: 415px;}
+	.box-o-text{ padding-bottom: inherit; }
+	.inner-menu{ padding-top: 45px;}
+	.left-padding-col{padding-left: 15px;}
+	.right-padding-col{padding-right: 15px;}
+	.col-sm-6.right-padding-col{
+		width: 49%;
+		margin-right: 7px;
+		padding-right: 0px;
+		margin-bottom: 0px;
+	}
+	.big-amenities{ height: 415px; overflow: hidden;}
+	.three-fourths-big-amenities{ height: 300px; }
+	.for-amenities{padding: 10px 0 0 0;}
+	.half-big{ height: 150px; }
+	/*.row.row-pad .col-sm-6.big-amenities{margin-top: 0px;}*/
+	/*.img-siteplan{ width: 700px; }*/
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	.big-amenities{ height: 345px;}
+	.col-sm-6.right-padding-col{margin-right: 9px;}
+
+	.col-sm-6 .box-o-text.for-amenities{padding-top: 23px;}
+	.col-sm-6 .box-o-text.for-amenities.relax{ padding-top: 5px;}
+	.col-sm-6 .box-o-text.for-amenities.live{ padding-top: 28px;}
+	.col-sm-6 .box-o-text.for-amenities.indulge{ padding-top: 19px;}
+	.half-big{ height: 193px; }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	.col-sm-6 .box-o-text.for-amenities{padding-top: 23px;}
+	.col-sm-6 .box-o-text.for-amenities.relax{padding-top: 23px;}
+	.col-sm-6 .box-o-text.for-amenities.live{ padding-top: 28px;}
+	.col-sm-6 .box-o-text.for-amenities.indulge{ padding-top: 19px;}
+	.col-sm-6.right-padding-col{margin-right: 11px;}
+	.half-big{ height: 233px; }
+	/*.big-horizontal{ width: 1200px; }*/
+	/*.img-siteplan{ width: 1200px; }*/
+}
+@media only screen and (min-width : 1441px) {
+	/*.big-horizontal{ width: 2000px; }*/
+	/*.img-siteplan{ width: 2000px; }*/
+}

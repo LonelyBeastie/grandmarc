@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  {% include head.html %}
+
+  <body class="background-img wood">
+
+    {% include header.html %}
+    {% if (page.page_name == "siteplan") OR (page.page_name == "gallery") %}
+    <div class="container-fluid">
+    {% else %}
+    <div class="container">
+    {% endif %}
+      {{ content }}
+    </div>
+    {% include footer.html %}
+    {% include javascript.html %}
+  </body>
+  <script src="http://i.simpli.fi/dpx.js?cid=25&action=100&segment=3428239&m=1"></script>
+</html>
