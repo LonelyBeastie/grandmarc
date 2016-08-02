@@ -1,9 +1,21 @@
+/*Overrides*/
+.home_content .find_us { background-color: #00B3E6;}
 
 .home.smalllogo header { background: #3C5896; }
-.home.smalllogo header { opacity: .4;; }
+/*.home.smalllogo header { opacity: .4;; }*/
 
-.pos-top{ background-position: top; }
-.pos-bottom{ background-position: bottom; }
+/*colors*/
+/* background colors */
+.dark-blue{ background-color: #3C5896;}
+.orange{ background-color: #FF8135;}
+.aqua-blue{ background-color: #00B3E6;}
+.green{ background-color: #BAD636;}
+
+/*text colors*/
+.dark-blue-text{ color: #3C5896;}
+.orange-text{ color: #FF8135;}
+.aqua-blue-text{ color: #00B3E6;}
+.green-text{ color: #BAD636;}
 
 /*Images*/
 /*.header-logo{ background-image:url("../img/logo_white.png");}*/
@@ -13,6 +25,9 @@
 .home_image_girl_reading-img{ background-image:url("../img/home_image_girl_reading.jpg");}
 .home_image_girls_lunching-img{ background-image:url("../img/home_image_girls_lunching.jpg");}
 .home_image_volleyball-img{ background-image:url("../img/home_image_volleyball.jpg");}
+
+.pos-top{ background-position: top; }
+.pos-bottom{ background-position: bottom; }
 
 /* Main Logo */
 .main-logo{ width: 100%}
