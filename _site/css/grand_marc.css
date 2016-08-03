@@ -1,3 +1,20 @@
+/*Adding fonts*/
+@font-face {
+    font-family: archer-book;
+    src: url(fonts/archer-book.otf);
+}
+@font-face {
+    font-family: archer-book-italic;
+    src: url(fonts/archer-book-italic.otf);
+}
+@font-face {
+    font-family: avenir;
+    src: url(fonts/avenir.ttc);
+}
+@font-face {
+    font-family: sant-elia-script-light;
+    src: url(fonts/sant-elia-script-light.otf);
+}
 /*Overrides*/
 .home_content .find_us { background-color: #00B3E6;}
 
@@ -17,6 +34,17 @@
 .aqua-blue-text{ color: #00B3E6;}
 .green-text{ color: #BAD636;}
 .white-text{ color: white;}
+
+/*Borders*/
+.aqua-blue-border{
+  border-color: #00B3E6;
+}
+
+/*fonts*/
+.font_archer-book{ font-family: archer-book;}
+.font_archer-book-italic{ font-family: archer-book-italic;}
+.font_avenir{ font-family: avenir;}
+.font_sant-elia-script-light{ font-family: sant-elia-script-light;}
 
 /*Images*/
 /*.header-logo{ background-image:url("../img/logo_white.png");}*/

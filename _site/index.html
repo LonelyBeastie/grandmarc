@@ -653,7 +653,7 @@
       <img src="img/logo_white.png" alt="GrandMarc Logo" class="main-logo"/>
     </a>
 </header>
-<a id="hamburger" href="#"><span></span></a>
+<!-- <a id="hamburger" href="#"><span></span></a> -->
 <div class="menu_overlay main_menu">
   <nav>
     <ul id="main-menu" class="main_nav">
@@ -676,21 +676,21 @@
   </div>
   <div class="home_content">
     <div class="container-fluid">
-      <div class="row aqua-blue like-the-header">
+      <div class="row aqua-blue like-the-header white-text">
         <div class="col-md-6 ">
-            <p>844-371-8788</p>
+            <p class="font_archer-book">844-371-8788</p>
         </div>
         <div class="col-md-6">
-          <p class="text-right">
-            125 Anderson Highway, Clemson, South Carolina 29621 <a href="https://goo.gl/maps/tehwawhKVGq">map me >></a><br>
-            Our preleasing office is located at 382-2 College Avenue, Clemson, South Carolina 29631
+          <p class="text-right font_avenir">
+            125 Anderson Highway, Clemson, South Carolina 29621 <a href="https://goo.gl/maps/tehwawhKVGq" class="font_archer-book-italic">map me >></a><br>
+            <span class="font_archer-book">Our preleasing office is located at 382-2 College Avenue, Clemson, South Carolina 29631</span>
           </p>
         </div>
       </div>
       <div class="row located-box">
-        <div class="col-md-6 no-padding">
-          <p>Located just minutes from campus and College Avenue, GrandMarc Clemson’s location and expansive amenities give you all of the time to study and play you need, all in one environment.</p>
-          <p>Whether you have a roommate or decide to use our roommate matching program, we have the perfect floor plan for you! Choose from a studio, 1, 2, 3 or 4 bedroom apartment.</p>
+        <div class="col-md-6 no-padding dark-blue-text">
+          <p class="font_avenir"><span class="font_sant-elia-script-light">Located </span>just minutes from campus and College Avenue, GrandMarc Clemson’s location and expansive amenities give you all of the time to study and play you need, all in one environment.</p>
+          <p class="font_avenir">Whether you have a roommate or decide to use our roommate matching program, we have the perfect floor plan for you! Choose from a studio, 1, 2, 3 or 4 bedroom apartment.</p>
         </div>
         <div class="col-md-6 no-padding">
           <div class="img-medium home_image_girl_coffee-img">
@@ -699,7 +699,7 @@
       </div>
       <div class="row orange like-the-header">
         <div class="col-md-12">
-          <p class="text-center">Student Living Redefined</p>
+          <h2 class="text-center font_sant-elia-script-light white-text">Student Living Redefined</h2>
         </div>
       </div>
       <div class="row">
@@ -723,7 +723,7 @@
           <div class="img-medium home_image_water-img">
             <div class="row">
               <div class="col-md-8 col-md-offset-2">
-                <p class="about-box dark-blue-text">
+                <p class="about-box dark-blue-text font_archer-book">
                   Study in our computer lounge, complete with private rooms, a printing area, and a coffee kitchen! When you need a break you can clear your head playing foosball in our clubhouse, visit the 24-hour on-site fitness center, or lounge by the pool and soak up some Clemson sun.
                 </p>
               </div>
@@ -731,12 +731,12 @@
           </div>
         </div>
       </div>
-      <div class="row">
+      <div class="row like-the-header">
         <div class="col-md-6 col-md-offset-3">
-          <p class="text-center">
+          <h3 class="text-center font_archer-book aqua-blue-text">
             For more information<br>
-            fill out the form below
-          </p>
+            <span class="font_sant-elia-script-light">fill out the form below</span>
+          </h3>
         </div>
       </div>
     <form>
@@ -792,7 +792,30 @@
           </p>
         </div>
       </div>
-
+    </div>
+  </div>
+</div>
+<!-- modal -->
+<div class="modal fade" id="specialModal" tabindex="-1" role="dialog" aria-labelledby="specialModalLabel" style="display: block;">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content wood">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+      </div>
+      <div class="modal-body orange-text">
+        <h3 class="text-center font_archer-book">
+          NOW PRELEASING<br>
+          FOR FALL 2017
+        </h3>
+        <hr class="aqua-blue-border">
+        <h2 class="text-center font_archer-book"><a href="tel:8443718788">844-371-8788</a></h2>
+        <p class="text-center aqua-blue-text font_archer-book">
+          Our preleasing office is located at <br>
+          382-2 College Avenue, Clemson, SC 29631
+        </p>
+      </div>
+      <div class="modal-footer">
+      </div>
     </div>
   </div>
 </div>
@@ -801,6 +824,7 @@
 <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js" integrity="sha256-xNjb53/rY+WmG+4L6tTl9m6PpqknWZvRt0rO1SRnJzw=" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 <script type="text/javascript" src="js/theme.js"></script>
+<script type="text/javascript" src="js/special_modal.js"></script>
 
   </body>
 
