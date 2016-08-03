@@ -16,6 +16,7 @@
 .orange-text{ color: #FF8135;}
 .aqua-blue-text{ color: #00B3E6;}
 .green-text{ color: #BAD636;}
+.white-text{ color: white;}
 
 /*Images*/
 /*.header-logo{ background-image:url("../img/logo_white.png");}*/
@@ -39,6 +40,11 @@
   margin: 10px;
   padding: 10px;
   border: 5px solid #3C5896;
+}
+.about-box{
+  margin-top: 100px;
+  padding: 20px;
+  border: 5px solid white;
 }
 .no-padding{ padding: 0px;}
 .all-padding{ padding: 15px 15px 15px 15px;}
@@ -109,3 +115,5 @@ header .grandmarc_logo {
       top: 88px;
   }
 }
+/*footer*/
+.equal-op{width: 65px; padding-left: 5px; }
