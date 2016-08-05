@@ -135,6 +135,9 @@ h2.align-middle-header{margin-top: 26px;}
   width: 100%;
   padding-top: 10px;
 }
+.arrow{
+  width: 25px;
+}
 /* Main Logo */
 .main-logo{ width: 100%}
 .header_logo {
