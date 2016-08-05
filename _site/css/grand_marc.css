@@ -19,7 +19,7 @@
 .home_content .find_us { background-color: #00B3E6;}
 .home.smalllogo header {
   background: #3C5896;
-  /*opacity: .7 */
+  /*opacity: .7;*/
 }
 a.no-dec, a.no-dec:hover {text-decoration: none;}
 /*.home.smalllogo header { opacity: .4;; }*/
@@ -189,14 +189,13 @@ header .grandmarc_logo {
       height: 100%;
       margin: 0 0 0 -117px;
   }
-  .like-the-header{
-    height: 60px;
-  }
+  .like-the-header{ min-height: 60px; }
 }
 /*Logo Transformation*/
 .home.smalllogo .header_logo{
   top: 115px;
-  transform: scale(0.54);
+  transform: scale(0.41);
+  /*transform: scale(0.54);*/
 }
 @media screen and (max-width: 1440px){
   .home.smalllogo .header_logo {
