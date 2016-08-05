@@ -220,12 +220,12 @@ header .grandmarc_logo {
     line-height: 20px;
   }
   .about-box.box-text {
-    font-size: 12px;
+    font-size: 17px;
     line-height: 20px;
   }
   .about-box{
-    margin-top: 115px;
-    padding: 20px 35px 20px 35px;
+    margin-top: 0px;
+    padding: 20px 15px 20px 15px;
   }
   .located-padding {
     padding: 0 0 0 0;
@@ -235,4 +235,15 @@ header .grandmarc_logo {
   }
   .info-text { font-size: 30px;}
   .please-text { font-size: 30px;}
+  .all-padding{ padding: 0 0 0 0; }
+  .t-b-padding{ padding: 0 0 0 0; }
+  .img-small{ height: 71px; }
+  .img-medium{height: 97px; }
+  div.img-medium.home_image_water-img{
+    /*margin: 0 0 0 0;
+    padding: 0 0 0 0;*/
+    height: 200px;
+  }
+  /*.col-md-offset-2{ padding-right: 0; }*/
+  .img-large{height: 490px; }
 }
