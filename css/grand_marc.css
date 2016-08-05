@@ -17,7 +17,10 @@
 }
 /*Overrides*/
 .home_content .find_us { background-color: #00B3E6;}
-.home.smalllogo header { background: #3C5896; }
+.home.smalllogo header {
+  background: #3C5896;
+  /*opacity: .7 */
+}
 a.no-dec, a.no-dec:hover {text-decoration: none;}
 /*.home.smalllogo header { opacity: .4;; }*/
 
@@ -125,9 +128,13 @@ textarea.form-control { height: 230px; }
 .t-b-padding{ padding: 15px 0 15px 0;}
 
 /*header*/
-.like-the-header{height: 100px;}
+.like-the-header{min-height: 100px;}
 .align-middle-header{margin-top: 20px;}
 h2.align-middle-header{margin-top: 26px;}
+.header-img{
+  width: 100%;
+  padding-top: 10px;
+}
 /* Main Logo */
 .main-logo{ width: 100%}
 .header_logo {
@@ -156,20 +163,20 @@ h2.align-middle-header{margin-top: 26px;}
 }
 /*Nav Logo*/
 header .grandmarc_logo {
-    width: 272px;
+    width: 372px;
     height: 100%;
     /*position: absolute;*/
     /*left: 50%;*/
     top: 0px;
-    margin: 0 0 0 -136px;
+    margin: 0 0 0 -186px;
     /*z-index: 3;*/
 }
 @media screen and (max-width: 767px){
   header .grandmarc_logo {
       top: -2px;
-      width: 182px;
+      width: 234px;
       height: 100%;
-      margin: 0 0 0 -91px;
+      margin: 0 0 0 -117px;
   }
   .like-the-header{
     height: 60px;
@@ -177,17 +184,18 @@ header .grandmarc_logo {
 }
 /*Logo Transformation*/
 .home.smalllogo .header_logo{
-  top: 136px;
+  top: 115px;
   transform: scale(0.54);
 }
 @media screen and (max-width: 1440px){
   .home.smalllogo .header_logo {
       left: 50%;
-      transform: scale(0.9);
+      transform: scale(0.69);
   }
 }
 @media screen and (max-width: 767px){
   .home.smalllogo .header_logo {
-      top: 88px;
+      top: 70px;
+      transform: scale(0.65);
   }
 }
