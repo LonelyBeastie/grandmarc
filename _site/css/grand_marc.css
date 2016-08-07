@@ -226,6 +226,7 @@ header .grandmarc_logo {
   .about-box{
     margin-top: 0px;
     padding: 20px 15px 20px 15px;
+    /*border: none;*/
   }
   .located-padding {
     padding: 0 0 0 0;
@@ -235,8 +236,8 @@ header .grandmarc_logo {
   }
   .info-text { font-size: 30px;}
   .please-text { font-size: 30px;}
-  .all-padding{ padding: 0 0 0 0; }
-  .t-b-padding{ padding: 0 0 0 0; }
+  .all-padding{ padding: 5px 5px 5px 5px; }
+  .t-b-padding{ padding: 5px 0 5px 0; }
   .img-small{ height: 71px; }
   .img-medium{height: 97px; }
   div.img-medium.home_image_water-img{
