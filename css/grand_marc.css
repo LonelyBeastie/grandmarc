@@ -129,6 +129,7 @@ textarea.form-control { height: 230px; }
 
 
 .no-padding{ padding: 0px;}
+.no-margin{ margin: 0px;}
 .located-padding{padding: 30px 50px 0 10px;}
 .all-padding{ padding: 15px 15px 15px 15px;}
 .t-b-padding{ padding: 15px 0 15px 0;}
@@ -224,8 +225,8 @@ header .grandmarc_logo {
     line-height: 20px;
   }
   .about-box{
-    margin-top: 0px;
-    padding: 20px 15px 20px 15px;
+    margin: 25px;
+    padding: 35px;
     /*border: none;*/
   }
   .located-padding {
@@ -240,11 +241,12 @@ header .grandmarc_logo {
   .t-b-padding{ padding: 5px 0 5px 0; }
   .img-small{ height: 71px; }
   .img-medium{height: 97px; }
-  div.img-medium.home_image_water-img{
-    /*margin: 0 0 0 0;
-    padding: 0 0 0 0;*/
-    height: 200px;
-  }
+  div.img-medium.home_image_water-img{ height: 345px; }
   /*.col-md-offset-2{ padding-right: 0; }*/
-  .img-large{height: 490px; }
+  .img-large{ height: 490px; }
 }
+/*@media only screen and (max-width: 767px){
+  div.img-medium.home_image_water-img{
+    height: 300px;
+  }
+}*/
