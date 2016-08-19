@@ -99,28 +99,31 @@ page_name: home
           </h1>
         </div>
       </div>
-    <form  class="font_avenir">
+
+    <form  action="https://getsimpleform.com/messages?form_api_token=7acbcd0fade81be858ebcca86baaec0c" method="post" class="font_avenir">
+      <!-- <input type='hidden' name='redirect_to' value='<the complete return url e.g. http://fooey.com/thank-you.html>' /> -->
       <div class="row">
         <div class="col-md-4 col-md-offset-2">
           <div class="form-group">
-            <input type="name" class="form-control" id="name" placeholder="name">
+            <input type="name" class="form-control" id="name" placeholder="name" name="name">
           </div>
           <div class="form-group">
-            <input type="phone" class="form-control" id="phone" placeholder="phone number">
+            <input type="phone" class="form-control" id="phone" placeholder="phone number" name="phone number">
           </div>
           <div class="form-group">
-            <input type="email" class="form-control" id="email" placeholder="email address">
+            <input type="email" class="form-control" id="email" placeholder="email address" name="email address">
           </div>
           <div class="form-group">
-            <input type="text" class="form-control" id="move-in-date" placeholder="move in date">
+            <input type="text" class="form-control" id="move-in-date" placeholder="move in date" name="move in date">
           </div>
           <div class="form-group">
-            <input type="text" class="form-control" id="rooms" placeholder="how many rooms?">
+            <input type="text" class="form-control" id="rooms" placeholder="how many rooms?" name="how many rooms?">
           </div>
         </div>
         <div class="col-md-4">
           <div class="form-group">
-            <textarea class="form-control" rows="10" placeholder="tell us more!"></textarea>
+            <textarea class="form-control" rows="10" placeholder="tell us more!" name="tell us more!">
+            </textarea>
           </div>
         </div>
       </div>
@@ -137,9 +140,9 @@ page_name: home
             <a href="https://www.facebook.com/GMClemson/"><i class="fa fa-facebook fa-2x"></i></a>
             &nbsp
             <a href="https://twitter.com/GMClemson"><i class="fa fa-twitter fa-2x"></i></a>
-            <!-- &nbsp
-            <a href="#"><i class="fa fa-instagram fa-2x"></i></a>
             &nbsp
+            <a href="https://www.instagram.com/GMClemson"><i class="fa fa-instagram fa-2x"></i></a>
+            <!-- &nbsp
             <a href="#"><i class="fa fa-pinterest fa-2x"></i></a>
             &nbsp
             <a href="#"><i class="fa fa-yelp fa-2x"></i></a>
