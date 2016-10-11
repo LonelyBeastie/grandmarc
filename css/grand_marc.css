@@ -30,11 +30,11 @@
 .gm-nav li a{
   color: white;
   text-decoration: none;
-  padding-left: 5px;
-  padding-right: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
-.gm-nav.gm-nav-left{left: 2%;}
-.gm-nav.gm-nav-right{right: 2%;}
+.gm-nav.gm-nav-left{left: 5%;}
+.gm-nav.gm-nav-right{right: 5%;}
 /*Overrides*/
 .home_content .find_us { background-color: #00B3E6;}
 .home.smalllogo header {
