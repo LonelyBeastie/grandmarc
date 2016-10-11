@@ -4,27 +4,40 @@ title: home
 page_name: home
 ---
 
-<div class="mobilewrap">
+<!-- <div class="mobilewrap"> -->
 <header>
-    <a class="grandmarc_logo" href="#">
-      <img src="img/logo_small.png" alt="GrandMarc Logo" class="main-logo"/>
-    </a>
+  <a id="hamburger" class="visible-sm visible-xs" href="#"><span></span></a>
+  <ul class="gm-nav gm-nav-left font_archer-book-italic hidden-sm hidden-xs">
+    <li><a href="#ammenities">Ammenities</a></li>
+    <li><a href="#floor_plans">Floor Plans</a></li>
+    <li><a href="#community">Community</a></li>
+    <li><a href="#gallery">Gallery</a></li>
+  </ul>
+  <a class="grandmarc_logo" href="#">
+    <img src="img/logo_small.png" alt="GrandMarc Logo" class="main-logo"/>
+  </a>
+  <ul class="gm-nav gm-nav-right font_archer-book-italic hidden-sm hidden-xs">
+    <li><a href="#campus_neighborhood">Campus Neighborhood</a></li>
+    <li><a href="#residents">Residents</a></li>
+    <li><a href="#apply_now">apply Now!</a></li>
+  </ul>
 </header>
-<!-- <a id="hamburger" href="#"><span></span></a> -->
 <div class="menu_overlay main_menu">
   <nav>
     <ul id="main-menu" class="main_nav">
-      <li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-6 current_page_item menu-item-161"><a href="#">Home</a></li>
-      <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-162"><a href="#">Location</a></li>
-      <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1330"><a href="#">About</a></li>
-      <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-233"><a href="#">Stuff 1</a></li>
-      <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-407"><a href="#">Stuff 2</a></li>
+      <li><a href="#">Ammenities</a></li>
+      <li><a href="#">Floor Plans</a></li>
+      <li><a href="#">Community</a></li>
+      <li><a href="#">Gallery</a></li>
+      <li><a href="#">Campus Neighborhood</a></li>
+      <li><a href="#">Residents</a></li>
+      <li><a href="#">apply Now!</a></li>
     </ul>
   </nav>
 </div>
 <div class="">
   <div class="header_img brown">
-    <div class="fadein_bg background-img pos-bottom">
+    <div class="fadein_bg background-new-img pos-bottom">
       <div class="header_logo">
         <img src="img/logo_big.png" alt="GrandMarc Logo" class="main-logo" />
       </div>
@@ -33,7 +46,7 @@ page_name: home
   </div>
   <div class="home_content">
     <div class="container-fluid">
-      <div class="row aqua-blue like-the-header white-text">
+      <div class="row aqua-blue like-the-header white-text" id="ammenities">
         <div class="col-md-4">
             <a href="https://goo.gl/maps/qv4xDb6bNon" class="no-dec" target="_blank">
               <img src="img/address_left.png" alt="" class="header-img l-15-padding" />
@@ -48,7 +61,7 @@ page_name: home
           </a>
         </div>
       </div>
-      <div class="row located-box box-text">
+      <div class="row located-box box-text" id="floor_plans">
         <div class="col-md-6 located-padding dark-blue-text">
           <p class="font_avenir"><span class="font_sant-elia-script-light located-text">Located </span>just minutes from the Clemson campus and College Avenue, GrandMarc’s new student apartments give you plenty of time to learn and live it up, all in one modern & convenient location.</p>
           <p class="font_avenir">Whether you are flying solo, living with friends or planning to use our sophisticated roommate matching program, we have the perfect floor plan for you. Choose from our spacious 2 or 4 bedroom apartments and be the first students to live at GrandMarc Clemson next fall.</p>
@@ -58,7 +71,7 @@ page_name: home
           </div>
         </div>
       </div>
-      <div class="row orange like-the-header">
+      <div class="row orange like-the-header" id="community">
         <div class="col-md-12">
           <h2 class="text-center align-middle-header font_sant-elia-script-light white-text">Student Living Redefined</h2>
         </div>
@@ -68,7 +81,7 @@ page_name: home
           <div class="img-large home_image_girl_reading-img pos-top"></div>
         </div>
       </div>
-      <div class="row">
+      <div class="row" id="gallery">
         <div class="col-xs-4 all-padding">
           <div class="img-small home_image_left-img"></div>
         </div>
@@ -79,7 +92,7 @@ page_name: home
           <div class="img-small home_image_right-img"></div>
         </div>
       </div>
-      <div class="row">
+      <div class="row" id="campus_neighborhood">
         <div class="col-md-12 no-padding">
           <div class="img-medium home_image_water-img">
             <div class="row no-margin">
@@ -92,7 +105,7 @@ page_name: home
           </div>
         </div>
       </div>
-      <div class="row like-the-header">
+      <div class="row like-the-header" id="apply_now">
         <div class="col-md-6 col-md-offset-3">
           <h1 class="text-center font_archer-book aqua-blue-text info-text">For more information<h1>
           <h2 class="text-center aqua-blue-text font_sant-elia-script-light please-text">please fill out the form below</h2>
@@ -159,7 +172,7 @@ page_name: home
   </div>
 </div>
 <!-- modal -->
-<div class="modal fade in" id="specialModal" tabindex="-1" role="dialog" aria-labelledby="specialModalLabel" style="display: block;">
+<!-- <div class="modal fade" id="specialModal" tabindex="-1" role="dialog" aria-labelledby="specialModalLabel" style="display: block;">
   <div class="modal-dialog" role="document">
     <div class="modal-content wood">
       <div class="modal-header">
@@ -181,4 +194,4 @@ page_name: home
       </div>
     </div>
   </div>
-</div>
+</div> -->

@@ -15,6 +15,26 @@
     font-family: sant-elia-script-light;
     src: url(fonts/sant-elia-script-light.otf);
 }
+.gm-nav{
+  position: absolute;
+  display: none;
+  /*margin: auto;*/
+  top: 50%;
+  -webkit-transform: translate(0%, -50%);
+  transform: translate(0%, -50%);
+}
+.gm-nav li{
+  display: inline;
+  z-index: -1;
+}
+.gm-nav li a{
+  color: white;
+  text-decoration: none;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.gm-nav.gm-nav-left{left: 2%;}
+.gm-nav.gm-nav-right{right: 2%;}
 /*Overrides*/
 .home_content .find_us { background-color: #00B3E6;}
 .home.smalllogo header {
@@ -52,6 +72,7 @@ a.no-dec, a.no-dec:hover {text-decoration: none;}
 /*Images*/
 /*.header-logo{ background-image:url("../img/logo_white.png");}*/
 .background-img{ background-image:url("../img/background.png");}
+.background-new-img{ background-image:url("../img/background_new.jpg");}
 .home_image_dog-img{ background-image:url("../img/home_image_dog.jpg");}
 .home_image_girl_coffee-img{ background-image:url("../img/home_image_girl_coffee.jpg");}
 .home_image_girl_reading-img{ background-image:url("../img/home_image_girl_reading.jpg");}
