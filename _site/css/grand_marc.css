@@ -72,7 +72,7 @@ a.no-dec, a.no-dec:hover {text-decoration: none;}
 /*Images*/
 /*.header-logo{ background-image:url("../img/logo_white.png");}*/
 .background-img{ background-image:url("../img/background.png");}
-.background-new-img{ background-image:url("../img/background_new_2.jpg");}
+.background-new-img{ background-image:url("../img/background_new_2darker.jpg");}
 .home_image_dog-img{ background-image:url("../img/home_image_dog.jpg");}
 .home_image_girl_coffee-img{ background-image:url("../img/home_image_girl_coffee.jpg");}
 .home_image_girl_reading-img{ background-image:url("../img/home_image_girl_reading.jpg");}
@@ -186,7 +186,7 @@ hr.aqua-blue-border{
     position: absolute;
     width: 500px;
     height: 500px;
-    top: 50%;
+    top: 35%;
     left: 50%;
     margin: -250px 0 0 -250px;
     -webkit-transition: all 0.5s 0.5s;
