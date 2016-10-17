@@ -15,6 +15,14 @@
     font-family: sant-elia-script-light;
     src: url(fonts/sant-elia-script-light.otf);
 }
+#hamburger img{
+  width: 30px;
+  margin-top: -12px;
+}
+.main_nav a{
+  color: white;
+  font-family: archer-book;
+}
 .gm-nav{
   position: absolute;
   display: none;
