@@ -289,3 +289,7 @@ header .grandmarc_logo {
     height: 300px;
   }
 }*/
+@media only screen and (min-width : 1500px) {
+  .gm-nav.gm-nav-left{left: 10%;}
+  .gm-nav.gm-nav-right{right: 10%;}
+}
