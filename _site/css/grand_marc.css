@@ -19,9 +19,15 @@
   width: 30px;
   margin-top: -12px;
 }
+.nav-close{
+  width: 50px;
+}
 .main_nav a{
   color: white;
   font-family: archer-book;
+  letter-spacing: .25em;
+  line-height: 2em;
+
 }
 .gm-nav{
   position: absolute;
