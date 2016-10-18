@@ -29,7 +29,7 @@
   line-height: 1.75em;
 
 }
-.gm-nav{
+.gm-nav-new{
   position: absolute;
   display: none;
   /*margin: auto;*/
@@ -37,18 +37,18 @@
   -webkit-transform: translate(0%, -50%);
   transform: translate(0%, -50%);
 }
-.gm-nav li{
+.gm-nav-new li{
   display: inline;
   z-index: -1;
 }
-.gm-nav li a{
+.gm-nav-new li a{
   color: white;
   text-decoration: none;
   padding-left: 15px;
   padding-right: 15px;
 }
-.gm-nav.gm-nav-left{left: 5%;}
-.gm-nav.gm-nav-right{right: 5%;}
+.gm-nav-new.gm-nav-left{left: 5%;}
+.gm-nav-new.gm-nav-right{right: 5%;}
 /*Overrides*/
 .home_content .find_us { background-color: #00B3E6;}
 .home.smalllogo header {
@@ -290,6 +290,6 @@ header .grandmarc_logo {
   }
 }*/
 @media only screen and (min-width : 1500px) {
-  .gm-nav.gm-nav-left{left: 10%;}
-  .gm-nav.gm-nav-right{right: 10%;}
+  .gm-nav-new.gm-nav-left{left: 10%;}
+  .gm-nav-new.gm-nav-right{right: 10%;}
 }

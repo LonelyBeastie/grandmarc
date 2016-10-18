@@ -7,11 +7,11 @@ $( document ).ready(function() {
 $(document).scroll(function() {
   var y = $(this).scrollTop();
   if (y > 35) {
-    $('.gm-nav').fadeIn();
+    $('.gm-nav-new').fadeIn();
   } else {
-    $('.gm-nav').fadeOut();
+    $('.gm-nav-new').fadeOut();
   }
 
-  $('.gm-nav a').smoothScroll({offset: -100});
+  $('.gm-nav-new a').smoothScroll({offset: -100});
 });
 // .menu_overlay
