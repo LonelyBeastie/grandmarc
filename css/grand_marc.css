@@ -47,6 +47,10 @@
   padding-left: 15px;
   padding-right: 15px;
 }
+.gm-nav-new li a.social-fa{
+  padding-left: 2px;
+  padding-right: 2px;
+}
 .gm-nav-new.gm-nav-left{left: 5%;}
 .gm-nav-new.gm-nav-right{right: 5%;}
 /*Overrides*/
