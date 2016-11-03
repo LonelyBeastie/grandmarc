@@ -12,6 +12,6 @@ $(document).scroll(function() {
     $('.gm-nav-new, .header-two').fadeOut();
   }
 
-  $('.gm-nav-new a').smoothScroll({offset: -100});
+  $('.gm-nav-new a').smoothScroll({offset: -125});
 });
 // .menu_overlay
