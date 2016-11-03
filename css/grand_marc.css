@@ -62,6 +62,13 @@
 a.no-dec, a.no-dec:hover {text-decoration: none;}
 /*.home.smalllogo header { opacity: .4;; }*/
 
+.header-one{ height: inherit; }
+.header-two{
+  /*height: 30px; */
+  /*top: 100;*/
+  display: none;
+}
+
 /*colors*/
 /* background colors */
 .dark-blue{ background-color: #3C5896;}

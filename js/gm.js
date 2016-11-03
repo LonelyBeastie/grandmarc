@@ -7,9 +7,9 @@ $( document ).ready(function() {
 $(document).scroll(function() {
   var y = $(this).scrollTop();
   if (y > 35) {
-    $('.gm-nav-new').fadeIn();
+    $('.gm-nav-new, .header-two').fadeIn();
   } else {
-    $('.gm-nav-new').fadeOut();
+    $('.gm-nav-new, .header-two').fadeOut();
   }
 
   $('.gm-nav-new a').smoothScroll({offset: -100});
