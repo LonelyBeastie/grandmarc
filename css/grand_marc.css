@@ -107,6 +107,7 @@ a.no-dec, a.no-dec:hover {text-decoration: none;}
 .orange{ background-color: #FF8135;}
 .aqua-blue{ background-color: #00B3E6;}
 .green{ background-color: #BAD636;}
+.grey{ background-color: rgb(246, 246, 246);}
 
 /*text colors*/
 .dark-blue-text{ color: #3C5896;}
