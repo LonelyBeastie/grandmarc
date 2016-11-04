@@ -234,6 +234,10 @@ a.no-dec, a.no-dec:hover {text-decoration: none;}
   padding-top: 20px;
   padding-bottom: 5px;
 }
+/*gallery*/
+.thumb{
+  width: 100%;
+}
 /*form*/
 form{
   padding: 10px 0 25px 0;
@@ -390,4 +394,21 @@ header .grandmarc_logo {
 @media only screen and (min-width : 1500px) {
   .gm-nav-new.gm-nav-left{left: 10%;}
   .gm-nav-new.gm-nav-right{right: 10%;}
+}
+
+/*gallery slider*/
+.carousel {
+    margin-top: 20px;
+}
+.item .thumb {
+	width: 20%;
+	cursor: pointer;
+	float: left;
+}
+.item .thumb img {
+	width: 90%;
+	margin: 2px;
+}
+.item img {
+	width: 100%;
 }
