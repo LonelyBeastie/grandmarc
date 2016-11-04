@@ -138,6 +138,7 @@ a.no-dec, a.no-dec:hover {text-decoration: none;}
 .home_image_left-img{ background-image:url("../img/home_image_left.jpg");}
 .home_image_right-img{ background-image:url("../img/home_image_right.jpg");}
 .home_image_water-img{ background-image:url("../img/home_image_water.jpg");}
+.gmc_site_plan{ background-image:url("../img/gmc_site_plan.jpg");}
 /*position*/
 .pos-top{ background-position: top; }
 .pos-bottom{ background-position: bottom; }
