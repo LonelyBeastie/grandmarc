@@ -80,7 +80,7 @@ a.no-dec, a.no-dec:hover {text-decoration: none;}
 }
 .owl-item img{
   width: 97%;
-  margin-right: 10px;
+  border: 5px solid white;
 }
 .owl-theme .owl-controls .owl-buttons div {
   background-color: inherit;
@@ -146,7 +146,7 @@ a.no-dec, a.no-dec:hover {text-decoration: none;}
 .img-medium{height: 435px; width: 100%;}
 .img-medium-2{height: 560px; width: 100%;}
 .img-large{height: 990px; width: 100%;}
-
+.full-width{ width: 100%; }
 /*margin*/
 .located-box{
   margin: 25px;
@@ -228,6 +228,10 @@ a.no-dec, a.no-dec:hover {text-decoration: none;}
   }
 }
 .text-bold{font-weight: bold;}
+.floorplan-desc{
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
 /*form*/
 form{
   padding: 10px 0 25px 0;
