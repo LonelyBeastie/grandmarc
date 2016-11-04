@@ -2,6 +2,14 @@ $( document ).ready(function() {
   $('.nav-close, #main-menu a').click(function() {
     $('body').removeClass("nav_open");
   });
+  $("#owl-example").owlCarousel(
+    {
+      "items":3,
+      "navigation":true,
+      "pagination":false,
+      "navigationText": ["<img src='img/owl/arrow_left.png'/>","<img src='img/owl/arrow_right.png'/>"]
+    }
+  );
 });
 
 $(document).scroll(function() {

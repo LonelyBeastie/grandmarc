@@ -68,7 +68,39 @@ a.no-dec, a.no-dec:hover {text-decoration: none;}
   /*top: 100;*/
   display: none;
 }
+.why-words{
+  font-size: 72px;
+  padding-top: 65px;
+  padding-bottom: 65px;
+  line-height: 65px;
+}
+.blue-hr{
+  margin-top: 90px;
+  border-top: 5px solid #00B3E6;
+}
+.owl-item img{
+  width: 97%;
+  margin-right: 10px;
+}
+.owl-theme .owl-controls .owl-buttons div {
+  background-color: inherit;
+}
+.owl-prev img{ width: 50%;}
+.owl-next img{ width: 50%;}
 
+@media only screen and (min-width : 992px) {
+  /*fix for mobile*/
+  .owl-prev{
+    position: absolute;
+    top: 34%;
+    left: -30%;
+  }
+  .owl-next{
+    position: absolute;
+    top: 34%;
+    right: -30%;
+  }
+}
 /*colors*/
 /* background colors */
 .dark-blue{ background-color: #3C5896;}
@@ -187,9 +219,13 @@ a.no-dec, a.no-dec:hover {text-decoration: none;}
   font-weight: bold;
   font-size: 26px;
 }
-.girl-reading-text{
-  position: absolute;
-  margin-top: 85px;
+.girl-reading-text{margin-top: 50px;}
+@media only screen and (min-width : 992px) {
+  .girl-reading-text{
+    margin-top: 0px;
+    position: absolute;
+    margin-top: 85px;
+  }
 }
 .text-bold{font-weight: bold;}
 /*form*/
