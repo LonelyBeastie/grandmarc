@@ -89,7 +89,7 @@ a.no-dec, a.no-dec:hover {text-decoration: none;}
 .owl-next img{ width: 50%;}
 
 @media only screen and (min-width : 992px) {
-  /*fix for mobile*/
+  /* media query fixes for mobile*/
   .owl-prev{
     position: absolute;
     top: 34%;
@@ -181,45 +181,56 @@ a.no-dec, a.no-dec:hover {text-decoration: none;}
   font-size: 43px;
   font-weight: lighter;
 }
-
-/*crazy boxes*/
-.amenities-row{ height: 750px;}
 .move-to{
-  position: absolute;
   padding-top: 5%;
   padding-left: 4%;
-  padding-bottom: 4%;
-  padding-right: 14%;
+  padding-bottom: 2%;
+  padding-right: 4%;
   margin-top: 3%;
-  left: 7.5%;
   line-height: 41px;
   font-weight: bold;
   font-size: 26px;
 }
 .move-to .font_avenir{margin-bottom: 0;}
-.coffee-girl{
-  position: absolute;
-  margin-top: 8%;
-  right: 10%;
-  width: 51%;
-}
-.dog-and-dude{
-  position: absolute;
-  margin-top: 4%;
-  left: 10%;
-  /*width: 45%;*/
-  z-index: 1;
-}
 .we-located{
-  position: absolute;
   padding-top: 6%;
-  padding-left: 18%;
+  padding-left: 4%;
   padding-bottom: 4%;
   padding-right: 4%;
-  right: 5%;
   line-height: 41px;
   font-weight: bold;
   font-size: 26px;
+}
+.apply-btn{
+  border: 3px white solid;
+  padding: 10px;
+}
+@media only screen and (min-width : 992px) {
+  /*crazy boxes*/
+  .amenities-row{ height: 750px;}
+  .move-to{
+    position: absolute;
+    left: 7.5%;
+    padding-right: 14%;
+  }
+  .move-to .font_avenir{margin-bottom: 0;}
+  .coffee-girl{
+    position: absolute;
+    margin-top: 8%;
+    right: 10%;
+    width: 51%;
+  }
+  .dog-and-dude{
+    position: absolute;
+    margin-top: 4%;
+    left: 10%;
+    z-index: 1;
+  }
+  .we-located{
+    position: absolute;
+    padding-left: 18%;
+    right: 5%;
+  }
 }
 .girl-reading-text{margin-top: 50px;}
 @media only screen and (min-width : 992px) {
