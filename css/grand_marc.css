@@ -321,12 +321,12 @@ hr.aqua-blue-border{
 }
 /*Nav Logo*/
 header .grandmarc_logo {
-    width: 372px;
+    width: 290px;
     height: 100%;
     /*position: absolute;*/
     /*left: 50%;*/
     top: 0px;
-    margin: 0 0 0 -186px;
+    margin: 0 0 0 -145px;
     /*z-index: 3;*/
 }
 /*Logo Transformation*/
@@ -356,9 +356,9 @@ header .grandmarc_logo {
   /*header { height: 100px;}*/
   header .grandmarc_logo {
       top: -2px;
-      width: 234px;
+      width: 174px;
       height: 100%;
-      margin: 0 0 0 -117px;
+      margin: 0 0 0 -87px;
   }
   .like-the-header{ min-height: 60px; }
   h1.align-middle-header { margin-top: 2px;}
