@@ -300,6 +300,7 @@ h2.align-middle-header{margin-top: 26px;}
 	margin-top: -125px;
 }
 .modal-header { border-bottom: none; }
+.modal-body h3{ padding-bottom: 5px; }
 .modal-footer { border-top: none; }
 .modal-content { border-radius: 0px; }
 hr.aqua-blue-border{
