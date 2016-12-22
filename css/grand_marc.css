@@ -98,7 +98,7 @@ a.no-dec, a.no-dec:hover {text-decoration: none;}
   .owl-next{
     position: absolute;
     top: 34%;
-    right: -30%;
+    right: -28%;
   }
 }
 /*colors*/
@@ -149,6 +149,8 @@ a.no-dec, a.no-dec:hover {text-decoration: none;}
 .img-medium-2{height: 560px; width: 100%;}
 .img-large{height: 990px; width: 100%;}
 .full-width{ width: 100%; }
+.floorplan-padding{ padding: 5px 0 5px 0;}
+.siteplan-padding{ padding: 5px 5px 5px 5px;}
 /*margin*/
 .located-box{
   margin: 25px;
