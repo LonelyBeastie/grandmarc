@@ -183,6 +183,10 @@ a.no-dec, a.no-dec:hover {text-decoration: none;}
   font-size: 43px;
   font-weight: lighter;
 }
+.check-text{
+  font-size: 43px;
+  font-weight: lighter;
+}
 .move-to{
   padding-top: 5%;
   padding-left: 4%;
